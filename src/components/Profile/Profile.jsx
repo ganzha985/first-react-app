@@ -1,16 +1,12 @@
 import React from 'react';
 import MyPosts from './MyPosts/MyPosts';
 import m from "./Profile.module.css"
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
     return(
       <div>
-        <div>
-          <img  className={m.image} src="https://bureau.ru/var/files/img1532613761"/>
-        </div>
-        <div>
-          av description
-        </div>
+        <ProfileInfo/>
         <MyPosts/>
       </div>
     )
